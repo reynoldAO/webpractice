@@ -1,0 +1,31 @@
+/* CSS stylesheet */
+body {
+    text-align: center;
+    background-color: lightgray;
+  }
+  img {
+    width: 100px;
+    margin: 0 5px;
+  }
+  h1 {
+    width: 30%;
+    background-color: blue;
+    margin: 0 auto;
+  }
+  p {
+    width: 40%;
+    padding: 20px;
+    margin: 0 5px;
+
+  }
+
+  h1+p{
+    margin: 0 auto;
+  }
+
+  img+p{
+    display: inline-block;
+    width: 35%;
+    text-align: justify;
+    margin: 0 5px;
+  }
